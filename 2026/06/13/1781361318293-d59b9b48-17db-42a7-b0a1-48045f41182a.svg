@@ -1,0 +1,31 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">内存和散热影响多任务</title>
+  <desc id="desc">内存不足会让系统借用硬盘周转，温度过高会触发处理器降频</desc>
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <text x="70" y="84" fill="#111827" font-size="42" font-weight="700">多任务和高温，会让电脑扛不住</text>
+    <text x="72" y="130" fill="#475569" font-size="24">内存像工作台，散热决定处理器能不能持续发挥</text>
+    <g transform="translate(100 215)">
+      <rect width="455" height="330" rx="24" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="42" y="60" fill="#111827" font-size="30" font-weight="700">内存不够</text>
+      <rect x="58" y="110" width="338" height="64" rx="14" fill="#dbeafe"/>
+      <rect x="58" y="196" width="270" height="64" rx="14" fill="#e0f2fe"/>
+      <rect x="58" y="282" width="180" height="38" rx="12" fill="#fee2e2"/>
+      <text x="80" y="151" fill="#1e3a8a" font-size="24">浏览器、微信、办公软件</text>
+      <text x="80" y="237" fill="#075985" font-size="24">视频会议、网盘同步</text>
+      <text x="80" y="310" fill="#991b1b" font-size="22">只能借硬盘周转</text>
+    </g>
+    <g transform="translate(645 215)">
+      <rect width="455" height="330" rx="24" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="42" y="60" fill="#111827" font-size="30" font-weight="700">温度过高</text>
+      <circle cx="145" cy="190" r="78" fill="#fee2e2"/>
+      <path d="M145 118 V218" stroke="#dc2626" stroke-width="22" stroke-linecap="round"/>
+      <circle cx="145" cy="238" r="32" fill="#dc2626"/>
+      <rect x="260" y="115" width="120" height="56" rx="12" fill="#dcfce7"/>
+      <rect x="260" y="202" width="95" height="56" rx="12" fill="#fef3c7"/>
+      <rect x="260" y="289" width="64" height="30" rx="10" fill="#fecaca"/>
+      <text x="260" y="90" fill="#64748b" font-size="22">性能输出</text>
+      <text x="260" y="360" fill="#991b1b" font-size="22">过热后会主动降速</text>
+    </g>
+  </g>
+</svg>
