@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1180 680" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">K1 business scenario planning</title>
+  <desc id="desc">Light themed diagram for splitting enterprise knowledge bases by business scenarios and assigning permission boundaries.</desc>
+  <defs>
+    <style>
+      text { font-family: Inter, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #172033; }
+      .title { font-size: 32px; font-weight: 850; }
+      .subtitle { font-size: 17px; fill: #667085; }
+      .h { font-size: 20px; font-weight: 800; }
+      .body { font-size: 15px; fill: #475467; }
+      .tiny { font-size: 13px; fill: #667085; }
+      .tag { font-size: 13px; font-weight: 700; fill: #344054; }
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#101828" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2f80ed"/>
+    </marker>
+  </defs>
+
+  <rect width="1180" height="680" fill="#f8fafc"/>
+  <circle cx="1030" cy="92" r="92" fill="#dff3ff" opacity="0.75"/>
+  <circle cx="110" cy="600" r="118" fill="#eaf8ef" opacity="0.75"/>
+
+  <text x="72" y="72" class="title">K1：按业务场景规划知识库</text>
+  <text x="72" y="105" class="subtitle">先定义业务目标和权限边界，再决定文档放在哪里。</text>
+
+  <g transform="translate(72 180)">
+    <rect width="250" height="300" rx="24" fill="#ffffff" stroke="#d0d5dd" filter="url(#shadow)"/>
+    <text x="125" y="48" text-anchor="middle" class="h">企业知识资产</text>
+    <text x="125" y="80" text-anchor="middle" class="body">制度 / 手册 / 方案 / FAQ</text>
+    <text x="125" y="108" text-anchor="middle" class="body">项目资料 / 培训 PPT / 案例</text>
+    <rect x="42" y="148" width="166" height="38" rx="19" fill="#eef6ff"/>
+    <text x="125" y="173" text-anchor="middle" class="tag">不要先做大杂烩</text>
+    <rect x="42" y="202" width="166" height="38" rx="19" fill="#fff7e6"/>
+    <text x="125" y="227" text-anchor="middle" class="tag">先问业务场景</text>
+  </g>
+
+  <line x1="346" y1="330" x2="452" y2="330" stroke="#2f80ed" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="400" y="306" text-anchor="middle" class="tiny">拆分</text>
+
+  <g transform="translate(480 158)">
+    <rect width="628" height="346" rx="26" fill="#ffffff" stroke="#d0d5dd" filter="url(#shadow)"/>
+    <text x="314" y="46" text-anchor="middle" class="h">业务场景知识库</text>
+
+    <g transform="translate(38 82)">
+      <rect width="168" height="94" rx="18" fill="#eef6ff" stroke="#98c7ff"/>
+      <text x="84" y="34" text-anchor="middle" class="h">售前</text>
+      <text x="84" y="62" text-anchor="middle" class="tiny">方案 / 案例 / 竞品</text>
+    </g>
+    <g transform="translate(230 82)">
+      <rect width="168" height="94" rx="18" fill="#ecfdf3" stroke="#85d5a3"/>
+      <text x="84" y="34" text-anchor="middle" class="h">客服</text>
+      <text x="84" y="62" text-anchor="middle" class="tiny">FAQ / 售后 / 工单</text>
+    </g>
+    <g transform="translate(422 82)">
+      <rect width="168" height="94" rx="18" fill="#fff7e6" stroke="#f3c878"/>
+      <text x="84" y="34" text-anchor="middle" class="h">交付</text>
+      <text x="84" y="62" text-anchor="middle" class="tiny">实施 / 验收 / 模板</text>
+    </g>
+    <g transform="translate(134 202)">
+      <rect width="168" height="94" rx="18" fill="#f4f0ff" stroke="#b8a5ff"/>
+      <text x="84" y="34" text-anchor="middle" class="h">研发</text>
+      <text x="84" y="62" text-anchor="middle" class="tiny">架构 / 接口 / 排障</text>
+    </g>
+    <g transform="translate(326 202)">
+      <rect width="168" height="94" rx="18" fill="#fff1f3" stroke="#ff9aac"/>
+      <text x="84" y="34" text-anchor="middle" class="h">制度</text>
+      <text x="84" y="62" text-anchor="middle" class="tiny">人事 / 财务 / 合规</text>
+    </g>
+  </g>
+
+  <g transform="translate(190 548)">
+    <rect width="800" height="72" rx="20" fill="#ffffff" stroke="#d0d5dd"/>
+    <text x="400" y="30" text-anchor="middle" class="h">权限边界同步设计</text>
+    <text x="400" y="54" text-anchor="middle" class="body">谁能看、谁能维护、哪些知识能接入 Agent、哪些内容不能被 AI 调用</text>
+  </g>
+</svg>
