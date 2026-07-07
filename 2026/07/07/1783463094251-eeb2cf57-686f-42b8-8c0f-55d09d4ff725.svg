@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      .font{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}
+      .h1{font-size:46px;font-weight:800;fill:#17324d}
+      .h2{font-size:30px;font-weight:800;fill:#17324d}
+      .txt{font-size:25px;fill:#30475d}
+      .note{font-size:20px;fill:#6d7f8c}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#f7f1e8"/>
+  <text x="80" y="86" class="font h1">事实边界：哪些已确认，哪些还不能直接下结论？</text>
+  <rect x="80" y="135" width="495" height="430" rx="24" fill="#ecf8ef" stroke="#6aa56f" stroke-width="4"/>
+  <rect x="625" y="135" width="495" height="430" rx="24" fill="#f3f5f6" stroke="#9aa7b0" stroke-width="4"/>
+  <text x="120" y="190" class="font h2">已由公开通报确认</text>
+  <text x="665" y="190" class="font h2">仍需证据或正式材料</text>
+  <g class="font txt">
+    <text x="120" y="255">1. 构成一级甲等医疗事故</text>
+    <text x="120" y="315">2. 医方承担主要责任</text>
+    <text x="120" y="375">3. 存在诊疗和管理问题</text>
+    <text x="120" y="435">4. 相关人员被问责处理</text>
+    <text x="120" y="495">5. 公安对责任医生立案侦查</text>
+    <text x="665" y="255">1. “腐败”或利益输送是否成立</text>
+    <text x="665" y="315">2. 家属与各方具体谈判细节</text>
+    <text x="665" y="375">3. 刑事案件最终司法结论</text>
+    <text x="665" y="435">4. 医院整改是否完全落地</text>
+    <text x="665" y="495">5. 后续新疑问的正式答复</text>
+  </g>
+  <line x1="600" y1="130" x2="600" y2="570" stroke="#d85d4a" stroke-width="5" stroke-dasharray="12 12"/>
+  <text x="80" y="620" class="font note">分析公共事件时，先划边界：通报能证明什么，通报尚未证明什么。</text>
+</svg>
