@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">登录账号会重新建立身份关联</title>
+  <desc id="desc">说明在无痕模式里登录账号后，网站仍然可以把访问和账号关联。</desc>
+  <rect width="900" height="430" fill="#ffffff"/>
+  <text x="48" y="66" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#182033">一旦登录账号，身份就回来了</text>
+  <g transform="translate(80 132)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="230" height="180" rx="22" fill="#edf5ff" stroke="#c9d7ef" stroke-width="3"/>
+    <circle cx="115" cy="70" r="34" fill="#4c8bf5"/>
+    <rect x="70" y="118" width="90" height="24" rx="12" fill="#4c8bf5"/>
+    <text x="58" y="220" font-size="21" fill="#334155">无痕窗口</text>
+  </g>
+  <path d="M325 220 H430" stroke="#607089" stroke-width="5" marker-end="url(#arrow)"/>
+  <g transform="translate(455 132)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="120" height="180" rx="20" fill="#fff5df" stroke="#e6c56c" stroke-width="3"/>
+    <text x="33" y="66" font-size="24" font-weight="700" fill="#946200">登录</text>
+    <text x="30" y="112" font-size="24" font-weight="700" fill="#946200">账号</text>
+  </g>
+  <path d="M590 220 H695" stroke="#607089" stroke-width="5" marker-end="url(#arrow)"/>
+  <g transform="translate(705 132)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="130" height="180" rx="22" fill="#e8f7ef" stroke="#b7e4c7" stroke-width="3"/>
+    <text x="31" y="78" font-size="24" font-weight="700" fill="#24704d">身份</text>
+    <text x="31" y="122" font-size="24" font-weight="700" fill="#24704d">关联</text>
+  </g>
+  <text x="112" y="370" font-family="Arial, sans-serif" font-size="21" fill="#5f6b80">无痕窗口减少本机记录，但你主动登录账号后，网站仍知道“是你”</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7,3 z" fill="#607089"/>
+    </marker>
+  </defs>
+</svg>
