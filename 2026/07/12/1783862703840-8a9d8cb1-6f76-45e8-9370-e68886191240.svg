@@ -1,0 +1,37 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="680" height="280" fill="#fafbfc" rx="8"/>
+  <text x="340" y="25" fill="#333" font-size="14" font-weight="700" text-anchor="middle">人民币存款结构分解</text>
+  <rect x="40" y="50" width="290" height="40" fill="#1D9E75" rx="4"/>
+  <text x="55" y="75" fill="#fff" font-size="13" font-weight="700">住户存款 165.89万亿</text>
+  <text x="280" y="75" fill="#fff" font-size="12" font-weight="700">50.5%</text>
+  <text x="55" y="105" fill="#666" font-size="11">增速+9.7% | 全年新增14.64万亿 | 定期化率73.4%</text>
+  <rect x="40" y="120" width="141" height="40" fill="#2980b9" rx="4"/>
+  <text x="50" y="145" fill="#fff" font-size="12" font-weight="700">企业 80.60万亿</text>
+  <text x="130" y="145" fill="#fff" font-size="11">24.5%</text>
+  <text x="50" y="172" fill="#666" font-size="10">+2.8% | 活期多增5.3万亿</text>
+  <rect x="191" y="120" width="60" height="40" fill="#e74c3c" rx="4"/>
+  <text x="198" y="145" fill="#fff" font-size="11" font-weight="700">非银34.6</text>
+  <text x="198" y="172" fill="#e74c3c" font-size="10" font-weight="700">+22.8%!</text>
+  <rect x="261" y="120" width="30" height="40" fill="#f0a020" rx="4"/>
+  <text x="265" y="145" fill="#fff" font-size="9">财政</text>
+  <text x="265" y="158" fill="#fff" font-size="9">8.5</text>
+  <rect x="301" y="120" width="29" height="40" fill="#aaa" rx="4"/>
+  <text x="307" y="145" fill="#fff" font-size="10">其他</text>
+  <text x="307" y="158" fill="#fff" font-size="9">39</text>
+  <line x1="40" y1="195" x2="320" y2="195" stroke="#ddd" stroke-width="1"/>
+  <text x="40" y="215" fill="#1D9E75" font-size="12" font-weight="700">三大结构性信号：</text>
+  <text x="40" y="235" fill="#555" font-size="11">① 住户存款占半壁江山，但定期化率73%+</text>
+  <text x="40" y="252" fill="#e74c3c" font-size="11" font-weight="600">② 非银存款暴增22.8%，"存款搬家"加速</text>
+  <text x="40" y="269" fill="#2980b9" font-size="11">③ 企业活期多增5.3万亿，M1回升推手</text>
+  <rect x="370" y="50" width="270" height="210" fill="#f0fbf5" rx="8" stroke="#c8e6d5"/>
+  <text x="505" y="80" fill="#1D9E75" font-size="13" font-weight="700" text-anchor="middle">框架对应关系</text>
+  <line x1="390" y1="92" x2="620" y2="92" stroke="#c8e6d5"/>
+  <text x="390" y="115" fill="#555" font-size="12">住户存款 = Cα（活期）+ Cβ（定期）</text>
+  <text x="390" y="140" fill="#555" font-size="12">企业存款 = Cα（活期）+ Cβ（定期）</text>
+  <text x="390" y="165" fill="#e74c3c" font-size="12" font-weight="600">非银存款 = Cβ（权益类承载）</text>
+  <text x="390" y="190" fill="#555" font-size="12">财政存款 = 政府待投放资金</text>
+  <line x1="390" y1="205" x2="620" y2="205" stroke="#c8e6d5"/>
+  <text x="390" y="225" fill="#1D9E75" font-size="11" font-weight="600">非银存款暴增 = Cβ从"存款"</text>
+  <text x="390" y="242" fill="#1D9E75" font-size="11" font-weight="600">向"权益资产"转移</text>
+  <text x="390" y="259" fill="#888" font-size="10">→ Mb（M2）内部结构质变中</text>
+</svg>
