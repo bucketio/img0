@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">桌面是一个真实文件夹</title>
+  <desc id="desc">展示屏幕上的桌面图标来自用户目录里的桌面文件夹。</desc>
+  <rect width="900" height="430" fill="#ffffff"/>
+  <text x="48" y="66" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#182033">桌面不是画面，是一个文件夹</text>
+  <text x="50" y="104" font-family="Arial, sans-serif" font-size="21" fill="#5f6b80">屏幕上看到的图标，来自桌面文件夹里的内容</text>
+  <rect x="70" y="155" width="300" height="180" rx="22" fill="#edf5ff" stroke="#c9d7ef" stroke-width="3"/>
+  <text x="126" y="198" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#2f6bd9">屏幕桌面</text>
+  <rect x="120" y="228" width="54" height="42" rx="8" fill="#ffffff"/>
+  <rect x="205" y="228" width="54" height="42" rx="8" fill="#ffffff"/>
+  <rect x="120" y="286" width="54" height="42" rx="8" fill="#ffffff"/>
+  <path d="M386 245 H500" stroke="#607089" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="530" y="155" width="300" height="180" rx="22" fill="#fff5df" stroke="#e7c878" stroke-width="3"/>
+  <path d="M590 225 h92 l26 34 h102 v74 H590 z" fill="#f2b84b"/>
+  <text x="587" y="198" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#946200">Desktop 文件夹</text>
+  <text x="203" y="386" font-family="Arial, sans-serif" font-size="20" fill="#5f6b80">把大文件放桌面，很多时候就是放进了 C 盘用户目录</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7,3 z" fill="#607089"/>
+    </marker>
+  </defs>
+</svg>
