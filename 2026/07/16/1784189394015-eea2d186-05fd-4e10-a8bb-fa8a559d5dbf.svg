@@ -1,0 +1,54 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 400" width="940" height="400">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f7ff"/><stop offset="1" stop-color="#e0f2fe"/></linearGradient>
+    <linearGradient id="arrowGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1a6bff"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+  </defs>
+  <rect width="940" height="400" fill="url(#bg4)"/>
+  
+  <!-- Speed lines -->
+  <g opacity="0.08">
+    <line x1="380" y1="140" x2="700" y2="140" stroke="#1a6bff" stroke-width="1"/>
+    <line x1="390" y1="160" x2="720" y2="160" stroke="#1a6bff" stroke-width="1.5"/>
+    <line x1="370" y1="180" x2="690" y2="180" stroke="#1a6bff" stroke-width="1"/>
+    <line x1="400" y1="200" x2="740" y2="200" stroke="#1a6bff" stroke-width="2"/>
+    <line x1="380" y1="220" x2="710" y2="220" stroke="#1a6bff" stroke-width="1.5"/>
+    <line x1="390" y1="240" x2="700" y2="240" stroke="#1a6bff" stroke-width="1"/>
+  </g>
+  
+  <!-- Series label -->
+  <rect x="35" y="30" width="115" height="28" rx="14" fill="#1a6bff" opacity="0.85"/>
+  <text x="92" y="49" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="13" font-weight="bold" fill="#fff">深度连载第3篇</text>
+  
+  <!-- 3 days label (dim) -->
+  <text x="50" y="125" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#94a3b8">传统方式</text>
+  <rect x="50" y="138" width="100" height="40" rx="6" fill="#e2e8f0"/>
+  <text x="100" y="165" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" font-weight="bold" fill="#94a3b8">3天</text>
+  
+  <!-- Arrow -->
+  <line x1="170" y1="158" x2="280" y2="158" stroke="url(#arrowGrad)" stroke-width="3"/>
+  <polygon points="280,150 300,158 280,166" fill="#1a6bff"/>
+  
+  <!-- 1 hour label (bright) -->
+  <text x="50" y="220" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#1a6bff">獴探方式</text>
+  <rect x="50" y="233" width="100" height="40" rx="6" fill="#1a6bff"/>
+  <text x="100" y="260" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" font-weight="bold" fill="#fff">1小时</text>
+  
+  <!-- Efficiency badge -->
+  <rect x="200" y="210" width="130" height="40" rx="20" fill="#ff6b35"/>
+  <text x="265" y="235" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14" font-weight="bold" fill="#fff">提效 90%</text>
+  
+  <!-- Main title -->
+  <text x="380" y="125" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="bold" fill="#1e293b">从3天到1小时</text>
+  <text x="380" y="165" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="16" fill="#475569">獴探·智写如何重新定义</text>
+  <text x="380" y="195" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="16" fill="#475569">可研报告撰写</text>
+  
+  <!-- Document outline -->
+  <rect x="380" y="215" width="180" height="5" rx="2" fill="#cbd5e1"/>
+  <rect x="380" y="225" width="160" height="5" rx="2" fill="#e2e8f0"/>
+  <rect x="380" y="235" width="170" height="5" rx="2" fill="#e2e8f0"/>
+  <rect x="380" y="245" width="140" height="5" rx="2" fill="#e2e8f0"/>
+  
+  <!-- Brand -->
+  <text x="50" y="365" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#94a3b8">深度内容 · 每周一更新</text>
+  <text x="890" y="365" text-anchor="end" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#94a3b8">清源智界研究院</text>
+</svg>
