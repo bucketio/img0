@@ -1,0 +1,31 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 400" width="940" height="400">
+  <defs>
+    <linearGradient id="bg02" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F2B4A"/><stop offset="1" stop-color="#0A1E35"/></linearGradient>
+    <linearGradient id="gold02" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C9A84C"/><stop offset="1" stop-color="#E8CC6E"/></linearGradient>
+  </defs>
+  <rect width="940" height="400" fill="url(#bg02)"/>
+  <rect x="0" y="0" width="940" height="3" fill="url(#gold02)"/>
+  
+  <!-- Fragmented dots converging -->
+  <g opacity="0.2">
+    <circle cx="820" cy="60" r="5" fill="#C9A84C"/>
+    <circle cx="880" cy="180" r="5" fill="#C9A84C"/>
+    <circle cx="850" cy="320" r="5" fill="#C9A84C"/>
+    <circle cx="780" cy="370" r="5" fill="#C9A84C"/>
+    <circle cx="700" cy="380" r="5" fill="#C9A84C"/>
+    <line x1="820" y1="60" x2="700" y2="380" stroke="#C9A84C" stroke-width="0.8"/>
+    <line x1="880" y1="180" x2="700" y2="380" stroke="#C9A84C" stroke-width="0.8"/>
+    <line x1="850" y1="320" x2="700" y2="380" stroke="#C9A84C" stroke-width="0.8"/>
+    <line x1="780" y1="370" x2="700" y2="380" stroke="#C9A84C" stroke-width="0.8"/>
+  </g>
+  
+  <rect x="30" y="25" width="100" height="26" rx="13" fill="#C9A84C"/>
+  <text x="80" y="42" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="bold" fill="#0F2B4A">深度连载</text>
+  
+  <rect x="50" y="258" width="48" height="3" rx="1.5" fill="#C9A84C"/>
+  
+  <text x="50" y="175" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="46" font-weight="bold" fill="#ffffff">全过程咨询的</text>
+  <text x="50" y="240" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="46" font-weight="bold" fill="#ffffff">碎片化困局</text>
+  
+  <text x="910" y="370" text-anchor="end" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#C9A84C" opacity="0.7">清源智界 · 獴探</text>
+</svg>
