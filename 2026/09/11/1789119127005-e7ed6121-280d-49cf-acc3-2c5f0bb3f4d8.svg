@@ -1,0 +1,67 @@
+<svg width="1880" height="400" viewBox="0 0 1880 400" xmlns="http://www.w3.org/2000/svg" font-family="'Microsoft YaHei','trebuchet ms',verdana,arial,sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <style>
+    .bg { fill: #ffffff; }
+    .node { fill: #ffffff; stroke: #5b8def; stroke-width: 1.2px; }
+    .node-em { fill: #dbeafe; stroke: #2563eb; stroke-width: 1.2px; }
+    .edge { stroke: #2563eb; stroke-width: 2px; fill: none; }
+    .title { font-size: 20px; font-weight: bold; fill: #1d4ed8; }
+    .ntitle { font-size: 15px; font-weight: bold; fill: #1e3a8a; }
+    .nsub { font-size: 12.5px; fill: #3b6db4; }
+    .elabel { font-size: 13px; fill: #2563eb; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1880" height="400"/>
+
+  <text class="title" x="940" y="38" text-anchor="middle">人伤理算：六步流水线</text>
+
+  <!-- 节点 -->
+  <rect class="node-em" x="30" y="168" width="140" height="44" rx="6"/>
+  <text class="ntitle" x="100" y="196" text-anchor="middle">上传理赔材料</text>
+
+  <rect class="node" x="210" y="158" width="210" height="64" rx="6"/>
+  <text class="ntitle" x="315" y="184" text-anchor="middle">① 材料分类</text>
+  <text class="nsub" x="315" y="207" text-anchor="middle">过滤无关材料 · 超量自动分批</text>
+
+  <rect class="node" x="460" y="158" width="260" height="64" rx="6"/>
+  <text class="ntitle" x="590" y="184" text-anchor="middle">② 医疗费用理算</text>
+  <text class="nsub" x="590" y="207" text-anchor="middle">输入：发票 + 伤者姓名 + 出险时间</text>
+
+  <polygon class="node-em" points="860,120 970,190 860,260 750,190"/>
+  <text class="ntitle" x="860" y="186" text-anchor="middle">案件判定</text>
+  <text class="nsub" x="860" y="209" text-anchor="middle">小额案件 / 普通案件</text>
+
+  <rect class="node" x="1010" y="158" width="250" height="64" rx="6"/>
+  <text class="ntitle" x="1135" y="184" text-anchor="middle">③ 误工期与误工费计算</text>
+  <text class="nsub" x="1135" y="207" text-anchor="middle">输出：误工费 + 采纳的伤情</text>
+
+  <rect class="node" x="1330" y="88" width="200" height="44" rx="6"/>
+  <text class="ntitle" x="1430" y="116" text-anchor="middle">④ 交通伙补 Agent</text>
+
+  <rect class="node" x="1330" y="248" width="200" height="44" rx="6"/>
+  <text class="ntitle" x="1430" y="276" text-anchor="middle">⑤ 护理营养 Agent</text>
+
+  <rect class="node" x="1590" y="158" width="250" height="64" rx="6"/>
+  <text class="ntitle" x="1715" y="184" text-anchor="middle">⑥ 输出定损建议</text>
+  <text class="nsub" x="1715" y="207" text-anchor="middle">汇总明细 · 风险规则提示</text>
+
+  <!-- 连线 -->
+  <path class="edge" d="M170,190 L210,190" marker-end="url(#arrow)"/>
+  <path class="edge" d="M420,190 L460,190" marker-end="url(#arrow)"/>
+  <path class="edge" d="M720,190 L750,190" marker-end="url(#arrow)"/>
+  <path class="edge" d="M970,190 L1010,190" marker-end="url(#arrow)"/>
+
+  <!-- ③ 分流至 ④ / ⑤ -->
+  <path class="edge" d="M1260,190 L1295,190 L1295,110 L1330,110" marker-end="url(#arrow)"/>
+  <text class="elabel" x="1287" y="145" text-anchor="end">采纳的伤情</text>
+  <path class="edge" d="M1260,190 L1295,190 L1295,270 L1330,270" marker-end="url(#arrow)"/>
+  <text class="elabel" x="1287" y="250" text-anchor="end">采纳的伤情</text>
+
+  <!-- ④ / ⑤ 汇合至 ⑥ -->
+  <path class="edge" d="M1530,110 L1560,110 L1560,190 L1590,190" marker-end="url(#arrow)"/>
+  <path class="edge" d="M1530,270 L1560,270 L1560,190 L1590,190" marker-end="url(#arrow)"/>
+</svg>
