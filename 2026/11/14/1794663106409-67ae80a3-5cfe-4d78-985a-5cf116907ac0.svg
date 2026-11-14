@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1510" role="img" aria-labelledby="toolsearch_flow_title toolsearch_flow_desc" font-family="PingFang SC,Microsoft YaHei,sans-serif" fill="#17384A">
+<title id="toolsearch_flow_title">工具先搜索、后加载、再调用，最后返回业务数据</title>
+<desc id="toolsearch_flow_desc">通用教学示意；图中工具名为教学定义，不对应真实产品 API。</desc>
+<defs><marker id="toolsearch_flow_arrow_teal" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2 L12 7 L2 12" fill="none" stroke="#087F77" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<defs><marker id="toolsearch_flow_arrow_orange" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2 L12 7 L2 12" fill="none" stroke="#B76520" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<defs><marker id="toolsearch_flow_arrow_muted" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2 L12 7 L2 12" fill="none" stroke="#59717A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<defs><marker id="toolsearch_flow_arrow_blue" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2 L12 7 L2 12" fill="none" stroke="#3366A6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="0" y="0" width="750" height="1510" rx="0" fill="#F7F9F8"/>
+<text x="32" y="69" font-size="42" font-weight="750" text-anchor="start">工具先找到，再真正调用</text>
+<text x="32" y="121" font-size="30" font-weight="400" text-anchor="start" fill="#59717A">搜索命中 ≠ 已经查到评测结果</text>
+<rect x="24" y="159" width="702" height="153" rx="23" fill="#17384A"/>
+<text x="45" y="195" font-size="29" font-weight="550" text-anchor="start" fill="#FFFFFF">用户任务</text>
+<text x="45" y="245" font-size="33" font-weight="650" text-anchor="start" fill="#FFFFFF">查 run-42 最近一次成功完成的</text>
+<text x="45" y="295" font-size="33" font-weight="650" text-anchor="start" fill="#FFFFFF">验证评测的准确率</text>
+<line x1="99" y1="357" x2="204" y2="357" stroke="#D9E3E4" stroke-width="3" stroke-linecap="round"/>
+<line x1="248" y1="357" x2="353" y2="357" stroke="#D9E3E4" stroke-width="3" stroke-linecap="round"/>
+<line x1="397" y1="357" x2="502" y2="357" stroke="#D9E3E4" stroke-width="3" stroke-linecap="round"/>
+<line x1="546" y1="357" x2="651" y2="357" stroke="#D9E3E4" stroke-width="3" stroke-linecap="round"/>
+<circle cx="77" cy="357" r="22" fill="#EEF1F2"/>
+<text x="77" y="367" font-size="27" font-weight="650" text-anchor="middle" fill="#59717A">1</text>
+<text x="77" y="408" font-size="29" font-weight="600" text-anchor="middle" fill="#59717A">搜索</text>
+<circle cx="226" cy="357" r="22" fill="#EEF1F2"/>
+<text x="226" y="367" font-size="27" font-weight="650" text-anchor="middle" fill="#59717A">2</text>
+<text x="226" y="408" font-size="29" font-weight="600" text-anchor="middle" fill="#59717A">命中</text>
+<circle cx="375" cy="357" r="22" fill="#EEF1F2"/>
+<text x="375" y="367" font-size="27" font-weight="650" text-anchor="middle" fill="#59717A">3</text>
+<text x="375" y="408" font-size="29" font-weight="600" text-anchor="middle" fill="#59717A">加载</text>
+<circle cx="524" cy="357" r="22" fill="#EEF1F2"/>
+<text x="524" y="367" font-size="27" font-weight="650" text-anchor="middle" fill="#59717A">4</text>
+<text x="524" y="408" font-size="29" font-weight="600" text-anchor="middle" fill="#59717A">调用</text>
+<circle cx="673" cy="357" r="22" fill="#EEF1F2"/>
+<text x="673" y="367" font-size="27" font-weight="650" text-anchor="middle" fill="#59717A">5</text>
+<text x="673" y="408" font-size="29" font-weight="600" text-anchor="middle" fill="#59717A">返回</text>
+<rect x="24" y="442" width="702" height="713" rx="24" fill="#FFFFFF" stroke="#D9E3E4" stroke-width="2"/>
+<rect x="44" y="600" width="662" height="529" rx="20" fill="#EEF1F2"/>
+<rect x="24" y="1180" width="702" height="160" rx="22" fill="#EAF0FA"/>
+<text x="45" y="1227" font-size="31" font-weight="700" text-anchor="start" fill="#3366A6">模型此刻知道什么？</text>
+<g id="toolsearch_flow_state_0" opacity="0">
+<animate attributeName="opacity" values="1;0;0;0;0;1" keyTimes="0;0.15;0.3;0.55;0.7;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<circle cx="77" cy="357" r="25" fill="none" stroke="#3366A6" stroke-width="4"/>
+<text x="45" y="488" font-size="32" font-weight="700" text-anchor="start">1 / 5 · 模型提出搜索请求</text>
+<rect x="45" y="519" width="263" height="63" rx="16" fill="#EAF0FA" stroke="#3366A6" stroke-width="2"/>
+<text x="176.5" y="560" font-size="31" font-weight="650" text-anchor="middle" fill="#3366A6">模型</text>
+<rect x="443" y="519" width="263" height="63" rx="16" fill="#EAF0FA" stroke="#3366A6" stroke-width="2"/>
+<text x="574.5" y="560" font-size="31" font-weight="650" text-anchor="middle" fill="#3366A6">工具搜索器</text>
+<line x1="322" y1="550" x2="428" y2="550" stroke="#3366A6" stroke-width="3" stroke-linecap="round" marker-end="url(#toolsearch_flow_arrow_blue)"/>
+<rect x="44" y="600" width="662" height="529" rx="20" fill="#EAF0FA"/>
+<text x="65" y="653" font-size="29" font-weight="650" text-anchor="start" fill="#3366A6">搜索请求</text>
+<text x="65" y="744" font-size="36" font-weight="650" text-anchor="start" fill="#3366A6">查验证评测指标的工具</text>
+<text x="65" y="828" font-size="31" font-weight="400" text-anchor="start" fill="#3366A6">从已连接、已授权的目录检索</text>
+<text x="65" y="904" font-size="31" font-weight="400" text-anchor="start" fill="#3366A6">不在网上发现或安装新工具</text>
+<text x="45" y="1278" font-size="30" font-weight="550" text-anchor="start" fill="#3366A6">还不知道该调用哪个工具</text>
+<text x="45" y="1321" font-size="30" font-weight="550" text-anchor="start" fill="#3366A6">也没有查询任何评测数据</text>
+</g>
+<g id="toolsearch_flow_state_1" opacity="0">
+<animate attributeName="opacity" values="0;1;0;0;0;0" keyTimes="0;0.15;0.3;0.55;0.7;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<circle cx="226" cy="357" r="25" fill="none" stroke="#B76520" stroke-width="4"/>
+<text x="45" y="488" font-size="32" font-weight="700" text-anchor="start">2 / 5 · 搜索器返回命中项</text>
+<rect x="45" y="519" width="263" height="63" rx="16" fill="#FFF0DC" stroke="#B76520" stroke-width="2"/>
+<text x="176.5" y="560" font-size="31" font-weight="650" text-anchor="middle" fill="#B76520">工具搜索器</text>
+<rect x="443" y="519" width="263" height="63" rx="16" fill="#FFF0DC" stroke="#B76520" stroke-width="2"/>
+<text x="574.5" y="560" font-size="31" font-weight="650" text-anchor="middle" fill="#B76520">运行系统</text>
+<line x1="322" y1="550" x2="428" y2="550" stroke="#B76520" stroke-width="3" stroke-linecap="round" marker-end="url(#toolsearch_flow_arrow_orange)"/>
+<rect x="44" y="600" width="662" height="529" rx="20" fill="#FFF0DC"/>
+<text x="65" y="653" font-size="29" font-weight="650" text-anchor="start" fill="#B76520">工具引用</text>
+<text x="65" y="744" font-size="39" font-weight="700" text-anchor="start" fill="#B76520">get_latest_eval</text>
+<text x="65" y="828" font-size="33" font-weight="550" text-anchor="start" fill="#B76520">这是工具的身份标识</text>
+<text x="65" y="904" font-size="33" font-weight="500" text-anchor="start" fill="#B76520">指向它的完整定义</text>
+<text x="65" y="983" font-size="33" font-weight="650" text-anchor="start" fill="#B76520">不是 run-42 的评测结果</text>
+<text x="45" y="1278" font-size="30" font-weight="550" text-anchor="start" fill="#3366A6">知道候选工具是谁</text>
+<text x="45" y="1321" font-size="30" font-weight="550" text-anchor="start" fill="#3366A6">下一步还要加载完整说明</text>
+</g>
+<g id="toolsearch_flow_state_2" opacity="0">
+<animate attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;0.15;0.3;0.55;0.7;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<circle cx="375" cy="357" r="25" fill="none" stroke="#B76520" stroke-width="4"/>
+<text x="45" y="488" font-size="32" font-weight="700" text-anchor="start">3 / 5 · 运行系统加载完整定义</text>
+<rect x="45" y="519" width="263" height="63" rx="16" fill="#FFF0DC" stroke="#B76520" stroke-width="2"/>
+<text x="176.5" y="560" font-size="31" font-weight="650" text-anchor="middle" fill="#B76520">运行系统</text>
+<rect x="443" y="519" width="263" height="63" rx="16" fill="#FFF0DC" stroke="#B76520" stroke-width="2"/>
+<text x="574.5" y="560" font-size="31" font-weight="650" text-anchor="middle" fill="#B76520">模型</text>
+<line x1="322" y1="550" x2="428" y2="550" stroke="#B76520" stroke-width="3" stroke-linecap="round" marker-end="url(#toolsearch_flow_arrow_orange)"/>
+<rect x="44" y="600" width="662" height="529" rx="20" fill="#FFF0DC"/>
+<text x="65" y="653" font-size="29" font-weight="650" text-anchor="start" fill="#B76520">完整工具说明</text>
+<text x="65" y="710" font-size="37" font-weight="700" text-anchor="start" fill="#B76520">get_latest_eval</text>
+<text x="65" y="763" font-size="31" font-weight="550" text-anchor="start" fill="#B76520">用途：取最新一次成功评测</text>
+<text x="65" y="809" font-size="31" font-weight="500" text-anchor="start" fill="#B76520">规则：按评测完成时间排序</text>
+<text x="65" y="863" font-size="31" font-weight="650" text-anchor="start" fill="#B76520">必填参数（字符串）</text>
+<text x="65" y="911" font-size="31" font-weight="500" text-anchor="start" fill="#B76520">run_id：实验标识</text>
+<text x="65" y="959" font-size="31" font-weight="500" text-anchor="start" fill="#B76520">split：数据划分</text>
+<text x="65" y="1021" font-size="28" font-weight="500" text-anchor="start" fill="#B76520">返回：accuracy、checkpoint、</text>
+<text x="65" y="1068" font-size="28" font-weight="500" text-anchor="start" fill="#B76520">dataset_version、evaluated_at</text>
+<text x="45" y="1278" font-size="30" font-weight="550" text-anchor="start" fill="#3366A6">现在知道用途、参数和返回字段</text>
+<text x="45" y="1321" font-size="30" font-weight="550" text-anchor="start" fill="#3366A6">仍未执行具体评测查询</text>
+</g>
+<g id="toolsearch_flow_state_3" opacity="0">
+<animate attributeName="opacity" values="0;0;0;1;0;0" keyTimes="0;0.15;0.3;0.55;0.7;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<circle cx="524" cy="357" r="25" fill="none" stroke="#B76520" stroke-width="4"/>
+<text x="45" y="488" font-size="32" font-weight="700" text-anchor="start">4 / 5 · 模型请求调用目标工具</text>
+<rect x="45" y="519" width="263" height="63" rx="16" fill="#FFF0DC" stroke="#B76520" stroke-width="2"/>
+<text x="176.5" y="560" font-size="31" font-weight="650" text-anchor="middle" fill="#B76520">模型</text>
+<rect x="443" y="519" width="263" height="63" rx="16" fill="#FFF0DC" stroke="#B76520" stroke-width="2"/>
+<text x="574.5" y="560" font-size="31" font-weight="650" text-anchor="middle" fill="#B76520">执行器</text>
+<line x1="322" y1="550" x2="428" y2="550" stroke="#B76520" stroke-width="3" stroke-linecap="round" marker-end="url(#toolsearch_flow_arrow_orange)"/>
+<rect x="44" y="600" width="662" height="529" rx="20" fill="#FFF0DC"/>
+<text x="65" y="653" font-size="29" font-weight="650" text-anchor="start" fill="#B76520">调用请求</text>
+<text x="65" y="738" font-size="39" font-weight="700" text-anchor="start" fill="#B76520">get_latest_eval</text>
+<text x="65" y="817" font-size="34" font-weight="650" text-anchor="start" fill="#B76520">run_id = &quot;run-42&quot;</text>
+<text x="65" y="889" font-size="34" font-weight="650" text-anchor="start" fill="#B76520">split = &quot;validation&quot;</text>
+<text x="65" y="974" font-size="31" font-weight="500" text-anchor="start" fill="#B76520">validation 表示验证集</text>
+<text x="45" y="1278" font-size="30" font-weight="550" text-anchor="start" fill="#3366A6">把用户问题转成具体参数</text>
+<text x="45" y="1321" font-size="30" font-weight="550" text-anchor="start" fill="#3366A6">请求交给执行器，而非模型自己查</text>
+</g>
+<g id="toolsearch_flow_state_4" opacity="1">
+<animate attributeName="opacity" values="0;0;0;0;1;0" keyTimes="0;0.15;0.3;0.55;0.7;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<circle cx="673" cy="357" r="25" fill="none" stroke="#087F77" stroke-width="4"/>
+<text x="45" y="488" font-size="32" font-weight="700" text-anchor="start">5 / 5 · 执行器查询评测系统</text>
+<rect x="45" y="519" width="263" height="63" rx="16" fill="#E2F3EF" stroke="#087F77" stroke-width="2"/>
+<text x="176.5" y="560" font-size="31" font-weight="650" text-anchor="middle" fill="#087F77">执行器</text>
+<rect x="443" y="519" width="263" height="63" rx="16" fill="#E2F3EF" stroke="#087F77" stroke-width="2"/>
+<text x="574.5" y="560" font-size="31" font-weight="650" text-anchor="middle" fill="#087F77">评测系统</text>
+<line x1="322" y1="550" x2="428" y2="550" stroke="#087F77" stroke-width="3" stroke-linecap="round" marker-end="url(#toolsearch_flow_arrow_teal)"/>
+<rect x="44" y="600" width="662" height="529" rx="20" fill="#E2F3EF"/>
+<g id="toolsearch_flow_result_wait" opacity="0">
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.7;0.700001;0.81;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<text x="65" y="653" font-size="31" font-weight="650" text-anchor="start" fill="#087F77">正在查询评测系统…</text>
+<text x="65" y="730" font-size="31" font-weight="500" text-anchor="start" fill="#087F77">先检查成功状态与验证集范围</text>
+<text x="65" y="783" font-size="31" font-weight="500" text-anchor="start" fill="#087F77">再按完成时间取最新一条</text>
+</g>
+<g id="toolsearch_flow_result_payload" opacity="1">
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.809999;0.81;0.999999;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<text x="65" y="653" font-size="29" font-weight="650" text-anchor="start" fill="#087F77">业务结果 · 返回给模型</text>
+<text x="65" y="726" font-size="34" font-weight="650" text-anchor="start" fill="#087F77">accuracy：准确率</text>
+<text x="65" y="792" font-size="31" font-weight="500" text-anchor="start" fill="#087F77">checkpoint：检查点标识</text>
+<text x="65" y="858" font-size="30" font-weight="500" text-anchor="start" fill="#087F77">dataset_version：数据版本</text>
+<text x="65" y="924" font-size="30" font-weight="500" text-anchor="start" fill="#087F77">evaluated_at：评测完成时间</text>
+<text x="65" y="1055" font-size="33" font-weight="700" text-anchor="start" fill="#087F77">这里才出现业务数据</text>
+</g>
+<text x="45" y="1278" font-size="30" font-weight="550" text-anchor="start" fill="#3366A6">真正查询后，才得到准确率</text>
+<text x="45" y="1321" font-size="30" font-weight="550" text-anchor="start" fill="#3366A6">连同评测标识一起核对、回答</text>
+</g>
+<g opacity="0" transform="translate(322 550)">
+<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.010000;0.010001;0.080000;0.080001;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;105 0;105 0" keyTimes="0;0.010000;0.080000;1" dur="20s" begin="0s" repeatCount="indefinite"/>
+<circle cx="0" cy="0" r="7" fill="#3366A6"/>
+</g></g>
+<g opacity="0" transform="translate(322 550)">
+<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.160000;0.160001;0.230000;0.230001;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;105 0;105 0" keyTimes="0;0.160000;0.230000;1" dur="20s" begin="0s" repeatCount="indefinite"/>
+<circle cx="0" cy="0" r="7" fill="#B76520"/>
+</g></g>
+<g opacity="0" transform="translate(322 550)">
+<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.310000;0.310001;0.380000;0.380001;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;105 0;105 0" keyTimes="0;0.310000;0.380000;1" dur="20s" begin="0s" repeatCount="indefinite"/>
+<circle cx="0" cy="0" r="7" fill="#B76520"/>
+</g></g>
+<g opacity="0" transform="translate(322 550)">
+<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.560000;0.560001;0.630000;0.630001;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;105 0;105 0" keyTimes="0;0.560000;0.630000;1" dur="20s" begin="0s" repeatCount="indefinite"/>
+<circle cx="0" cy="0" r="7" fill="#B76520"/>
+</g></g>
+<g opacity="0" transform="translate(322 550)">
+<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.710000;0.710001;0.780000;0.780001;1" calcMode="discrete" dur="20s" begin="0s" repeatCount="indefinite"/>
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;105 0;105 0" keyTimes="0;0.710000;0.780000;1" dur="20s" begin="0s" repeatCount="indefinite"/>
+<circle cx="0" cy="0" r="7" fill="#087F77"/>
+</g></g>
+<line x1="32" y1="1372" x2="718" y2="1372" stroke="#D9E3E4" stroke-width="2" stroke-linecap="round"/>
+<text x="32" y="1406" font-size="27" font-weight="400" text-anchor="start" fill="#59717A">橙色：工具身份、说明与调用参数；绿色：业务数据。</text>
+<text x="32" y="1446" font-size="27" font-weight="400" text-anchor="start" fill="#59717A">通用教学过程，工具名为示例；20 秒不代表耗时。</text>
+</svg>
